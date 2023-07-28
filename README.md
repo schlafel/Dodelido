@@ -6,6 +6,12 @@ Dodelido is a fast-paced and fun card game that can be played with 2 to 6 player
 ![Cover of the card game Dodelido.](media/img.png)
 *Cover of the card game dodelido*
 
+# Table of contents
+- [The Game](#the-game)
+- [Implementation details](#implementation)
+- [Dataset](#dataset)
+
+
 # The game
 The aim of the game Dodelido is to get rid of one's own cards as quickly as possible and to react to one of one's own laid out cards each time and not to make any mistakes. The game material consists of 105 cards, each containing 20 times the animal cards Flamingo, Penguin, Turtle, Camel and Zebra, and 5 times the Crocodile.[1]
 ## How to play
@@ -30,9 +36,20 @@ The winner of the game is the player who has played all the cards in his hand fi
 
 
 # Implementation
+For detecting destinct cards, the [yolo-v5 model](https://github.com/ultralytics/yolov5) was used.
 
+# Dataset
+For generating the dataset, all 25 distinct cards were photographed using a mobile phone. The cards were afterwards separated.
+For generating the dataset for training, validation and test run the following code. 
+Changes in parameters can be done by editing ```config.py```
+```python
+from src.data_gen import run_data_preparation
+run_data_preparation()
+```
+As a result, a dataset with labels is generated. To avoid photographing and labelling, the images are composed of 1-3 randomly placed cards on a random background as shown in [Figure 1](#figure1)
 
-
+![img.png](img.png)!
+*Figure 1: Random generated Dodelido-Cards on a random background. With artificially added labels gp (green penguin) and bc (blue camel)*
 
 # License
 

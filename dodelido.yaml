@@ -1,0 +1,16 @@
+# Dataset paths relative to the yolov5 folder
+train: ../data/ProcessedImages/train
+val:   ../data/ProcessedImages/val
+test:  ../data/ProcessedImages/test
+
+# Number of classes
+nc: 25
+
+# Class names
+names: [
+  'bc','gc','pc','wc','yc',
+  'bf','gf','pf','wf','yf',
+  'bp','gp','pp','wp','yp',
+  'bt','gt','pt','wt','yt',
+  'bz','gz','pz','wz','yz',
+]

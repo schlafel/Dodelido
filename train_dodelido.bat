@@ -1,0 +1,1 @@
+python yolov5/train.py --data dodelido.yaml --weights yolov5x.pt --epochs 100 --batch 4 --freeze 1 --project dodelido --name dodelido --exist-ok
