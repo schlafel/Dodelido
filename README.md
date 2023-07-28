@@ -55,9 +55,9 @@ As a result, a dataset with labels is generated. To avoid photographing and labe
 # Results
 The following video demonstrates the model perfomance in recognizing the different animals:
 
-<video width="320" height="240" controls>
-  <source src="./media/export_videos/Video_all.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/schlafel/Dodelido/assets/68279686/43f50ccd-08f6-4d39-9dfb-9f3e01300712
 
 
 
