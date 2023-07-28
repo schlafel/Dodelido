@@ -57,7 +57,11 @@ The following video demonstrates the model perfomance in recognizing the differe
 
 
 
-https://github.com/schlafel/Dodelido/assets/68279686/43f50ccd-08f6-4d39-9dfb-9f3e01300712
+
+https://github.com/schlafel/Dodelido/assets/68279686/4d4d1066-0998-4c73-a3b6-1f7834e5afbb
+
+
+
 
 
 
