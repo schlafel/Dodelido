@@ -10,6 +10,7 @@ Dodelido is a fast-paced and fun card game that can be played with 2 to 6 player
 - [The Game](#the-game)
 - [Implementation details](#implementation)
 - [Dataset](#dataset)
+- [Results](#results)
 
 
 # The game
