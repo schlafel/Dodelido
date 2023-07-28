@@ -51,6 +51,16 @@ As a result, a dataset with labels is generated. To avoid photographing and labe
 ![img.png](img.png)!
 *Figure 1: Random generated Dodelido-Cards on a random background. With artificially added labels gp (green penguin) and bc (blue camel)*
 
+
+# Results
+The following video demonstrates the model perfomance in recognizing the different animals:
+
+<video width="320" height="240" controls>
+  <source src="./media/export_videos/Video_all.mp4" type="video/mp4">
+</video>
+
+
+
 # License
 
 dodelido is licensed under the GNU GENERAL PUBLIC LICENSE. Feel free to use, modify, and distribute the code for your purposes. However, please attribute the original authors by linking back to this repository.
